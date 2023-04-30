@@ -1,0 +1,12 @@
+ceate client folder 
+
+"install all dependencies"
+--> npm install
+
+
+"Install react-router-dom for routes"
+--> npm install react-router-dom
+
+
+"install 🌐Sass(scss): Syntactically Awesome Style Sheets "
+--> npm install sass
