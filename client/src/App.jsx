@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Route, Outlet } from 'react-router-dom'
+import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom'
 import Login from './pages/Login';
 import Register from './pages/Register';
 import Header from './components/Header'

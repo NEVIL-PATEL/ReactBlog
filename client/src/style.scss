@@ -1,14 +1,67 @@
 $lightgreen: #b9e7e7;
 
+
 .app {
   .container {
+    
     // login & register
     .auth {
       display: flex;
+      flex-direction: column;
       align-items: center;
       justify-content: center;
       background-color: $lightgreen;
       height: 100vh;
+
+      h1{
+        font-size: 35px;
+        color: teal;
+        margin-bottom: 20px;
+      }
+
+      form{
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        background-color: white;
+        width: 300px;
+        gap: 20px;
+
+        input{
+          padding: 10px;
+          border: none;
+          border-bottom: 1px solid gray;
+          border-left: 5px solid gray;
+        }
+
+        input:focus{
+          outline: none;
+        }
+
+        button{
+          font-size: 20px;
+          padding: 10px;
+          border: none;
+          background-color: teal;
+          cursor: pointer;
+          color: white;
+        }
+
+        p{
+          font-style: 12px;
+          color: red;
+          text-align: center;
+        }
+
+        span{
+          font-style: 12px;
+          text-align: center;
+        }
+      }
     }
+
+
+    // NAVBAR
+
   }
 }
