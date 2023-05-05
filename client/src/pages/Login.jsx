@@ -11,7 +11,7 @@ const Login = () => {
                 <input required type="password" name="" id="" placeholder='Password' />
                 <button>Login</button>
                 <p>This is an error!</p>
-                <span>Dont't you have an account? <Link style={{ textDecoration: "none" }} to='/register'>Register</Link></span>
+                <span>Dont't you have an account? <Link className='link' to='/register'>Register</Link></span>
             </form>
         </div>
     )

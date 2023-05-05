@@ -33,7 +33,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/write",
-        element: <Write />
+        element: <Write />  
       },
 
     ]

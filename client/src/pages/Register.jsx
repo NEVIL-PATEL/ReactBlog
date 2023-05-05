@@ -11,7 +11,7 @@ const Register = () => {
                 <input required type="password" name="" id="" placeholder='Password' />
                 <button>Login</button>
                 <p>This is an error!</p>
-                <span>Do you have an account? <Link style={{ textDecoration: "none" }} to='/login'>Login</Link></span>
+                <span>Do you have an account? <Link className='link' to='/login'>Login</Link></span>
             </form>
         </div>
   )
