@@ -1,0 +1,10 @@
+npm init -y  for package.json file 
+
+create index.js file
+
+npm install express mysql2 nodemon
+
+change script in package.json file and add         %   "type": "module",   %
+        "scripts": {
+            "start": "nodemon index.js"
+        },
